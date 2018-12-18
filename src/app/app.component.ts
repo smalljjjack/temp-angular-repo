@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bwm-cli';
+  //title = 'bwm-cli';
+  componentTitle = "I am app component from components.ts";
+
+  clickHandler(){
+    alert("Clicked");
+  }
+
 }
